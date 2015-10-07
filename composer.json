@@ -1,0 +1,17 @@
+{	"name": "php api for KenyaMax",
+    "type": "api",
+    "description": "PHP api to grant access to RAW data from The Movie Database.",
+    "homepage": "http://kenyamax.oensa.com/v4/",
+    "keywords": ["omdb", "api", "php", "wrapper", "movie", "tv", "tv show", "tvdb"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Njenga",
+            "homepage": "http://oensa.com",
+            "email": "brian@oensa.com"
+        }
+    ],
+	"require":{
+		"slim/slim": "~2.6"
+	}
+}
