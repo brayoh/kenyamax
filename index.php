@@ -6,7 +6,7 @@
 	\Slim\Slim::registerAutoloader();
 
 	// set up database connection
-	R::setup('mysql:host=localhost;dbname=kenyamax_movies','root','BRIAN2015.de');
+	R::setup('mysql:host=localhost;dbname=kenyamax_movies','root','');
 	R::freeze(true);
 	$key = "$2y$10$5ebdde1aedb51ab740332uwVI2O";
 	$app = new \Slim\Slim();
